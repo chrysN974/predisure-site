@@ -26,13 +26,35 @@ export default function PrediSureLanding() {
       <div style={{ marginTop: "2rem" }}>
         <h2 style={{ fontSize: "1.5rem", color: "#fbbf24" }}>Request a Live Demo</h2>
         {!formSubmitted ? (
-          <form onSubmit={handleSubmit}>
-            <input placeholder="Name" required style={{ padding: "0.5rem", width: "100%", marginBottom: "1rem" }} />
-            <input placeholder="Email" type="email" required style={{ padding: "0.5rem", width: "100%", marginBottom: "1rem" }} />
-            <button type="submit" style={{ padding: "0.5rem 1rem", backgroundColor: "#fbbf24", border: "none", cursor: "pointer" }}>
-              Submit
-            </button>
-          </form>
+          <form action="https://formspree.io/f/mzzekjvq" method="POST">
+  <input
+    type="text"
+    name="name"
+    placeholder="Name"
+    required
+    style={{ padding: "0.5rem", width: "100%", marginBottom: "1rem" }}
+  />
+  <input
+    type="email"
+    name="email"
+    placeholder="Email"
+    required
+    style={{ padding: "0.5rem", width: "100%", marginBottom: "1rem" }}
+  />
+  <input
+    type="text"
+    name="company"
+    placeholder="Company / Organization"
+    style={{ padding: "0.5rem", width: "100%", marginBottom: "1rem" }}
+  />
+  <button
+    type="submit"
+    style={{ padding: "0.5rem 1rem", backgroundColor: "#fbbf24", border: "none", cursor: "pointer" }}
+  >
+    Submit
+  </button>
+</form>
+
         ) : (
           <p style={{ color: "lightgreen" }}>Thank you! We'll get back to you shortly.</p>
         )}
