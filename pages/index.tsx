@@ -12,7 +12,7 @@ export default function PrediSureLanding() {
     <div style={{ padding: "2rem", fontFamily: "Arial", color: "#fff", backgroundColor: "#0f172a", minHeight: "100vh" }}>
       <h1 style={{ fontSize: "2.5rem", color: "#fbbf24", textAlign: "center" }}>Welcome to PrediSure</h1>
       <p style={{ textAlign: "center", marginBottom: "2rem" }}>
-        The AI-powered platform that predicts hidden health risks before they become clinical problems.
+        The AI-powered platform that predicts hidden health risks before they become real problems.
       </p>
 
       <h2 style={{ fontSize: "1.5rem", color: "#fbbf24" }}>What PrediSure Delivers</h2>
