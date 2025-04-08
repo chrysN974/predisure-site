@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 export default function PrediSureLanding() {
   return (
     <div style={{ padding: "2rem", fontFamily: "Arial", color: "#fff", backgroundColor: "#0f172a", minHeight: "100vh" }}>
