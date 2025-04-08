@@ -8,13 +8,14 @@ export default function Home() {
 
       <h2 style={{ textAlign: "center", color: "#fbbf24" }}>Request a Live Demo</h2>
       <form action="https://formspree.io/f/xblgpvwg" method="POST" style={{ maxWidth: "500px", margin: "0 auto" }}>
-        <input type="text" name="name" placeholder="Your Name" required style={{ display: "block", width: "100%", marginBottom: "1rem", padding: "0.5rem" }} />
-        <input type="email" name="email" placeholder="Your Email" required style={{ display: "block", width: "100%", marginBottom: "1rem", padding: "0.5rem" }} />
-        <input type="text" name="company" placeholder="Your Company" style={{ display: "block", width: "100%", marginBottom: "1rem", padding: "0.5rem" }} />
-        <button type="submit" style={{ backgroundColor: "#fbbf24", padding: "0.75rem", border: "none", cursor: "pointer", borderRadius: "4px" }}>
-          Send Request
-        </button>
-      </form>
+  <input type="text" name="name" placeholder="Your Name" required style={{ display: "block", width: "100%", marginBottom: "1rem", padding: "0.5rem" }} />
+  <input type="email" name="email" placeholder="Your Email" required style={{ display: "block", width: "100%", marginBottom: "1rem", padding: "0.5rem" }} />
+  <input type="text" name="company" placeholder="Your Company" style={{ display: "block", width: "100%", marginBottom: "1rem", padding: "0.5rem" }} />
+  <button type="submit" style={{ backgroundColor: "#fbbf24", padding: "0.75rem", border: "none", cursor: "pointer", borderRadius: "4px" }}>
+    Send Request
+  </button>
+</form>
+
     </div>
   );
 }
